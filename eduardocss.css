@@ -1,0 +1,107 @@
+
+h1 { 
+  color: white;
+  text-shadow: 0,5px 0,5px 0,5px black;
+  text-align: center;
+  margin: 10px;
+}
+
+p {
+  color: white;
+  text-align: center; 
+  margin: 5vh;
+}
+
+.banner{
+  position:absolute;
+  text-align: center;
+  left:0;
+  right:0;
+  top:26vh;
+  font-size: 50px;
+  text-transform:none;
+  text-transform:uppercase;
+}
+
+body {
+  color:#fff;
+  font-family: 'Open Sans', sans-serif;
+  background:#000;
+}
+
+.box {
+  display: flex;
+  align-items:center;
+  padding: 5vh;
+   
+}
+
+.img1 {
+  border-radius: 50%;
+  justify-content: center;
+  align-itens:center;
+  display:flex;
+  margin:0 5vh;
+}
+
+.parallax {
+  background-image: url("https://i.ibb.co/RY55S4n/business-computer-connection-1054397-min.jpg");
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fundobranco {
+  text-align: center;
+  background-color: white;
+  color: black;
+  padding:7vh 100vh;
+}
+
+.pula {
+  padding: 1.2vh 100vh;
+}
+
+h4 {
+  position:absolute;
+  text-align: center;
+  left:0;
+  right:0;
+  margin: -0.5em;    
+  font-size: 30px;
+  text-transform:none;
+  text-transform:uppercase;
+}
+
+.espaco {
+  background-color: black;
+  padding: 4vh 100vh;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+h2 {
+  text-align: center; 
+}
+
+.img-habilidade{
+  justify-content: center;
+  padding: 15px;
+  align-itens:center;
+  display:flex;
+}
+
+.sobremim {
+  margin: 10px;
+  padding: 10px;
+}
