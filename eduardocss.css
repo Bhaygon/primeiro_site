@@ -9,7 +9,13 @@ h1 {
 p {
   color: white;
   text-align: center; 
-  margin: 5vh;
+  margin: 5px 10px;
+ 
+}
+
+h2 {
+  text-align: center; 
+  
 }
 
 .banner{
@@ -17,7 +23,7 @@ p {
   text-align: center;
   left:0;
   right:0;
-  top:26vh;
+  top:30vh;
   font-size: 50px;
   text-transform:none;
   text-transform:uppercase;
@@ -27,6 +33,7 @@ body {
   color:#fff;
   font-family: 'Open Sans', sans-serif;
   background:#000;
+  overflow-x: hidden;
 }
 
 .box {
@@ -42,15 +49,21 @@ body {
   align-itens:center;
   display:flex;
   margin:0 5vh;
+  
+}
+
+.overflow {
+    overflow: hidden
 }
 
 .parallax {
   background-image: url("https://i.ibb.co/RY55S4n/business-computer-connection-1054397-min.jpg");
-  min-height: 500px; 
+  min-height: 650px; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 .fundobranco {
@@ -61,7 +74,7 @@ body {
 }
 
 .pula {
-  padding: 1.2vh 100vh;
+  padding: 1.2vh 90vh;
 }
 
 h4 {
@@ -71,27 +84,12 @@ h4 {
   right:0;
   margin: -0.5em;    
   font-size: 30px;
-  text-transform:none;
-  text-transform:uppercase;
+
 }
 
 .espaco {
   background-color: black;
-  padding: 4vh 100vh;
-}
-
-.row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-}
-
-h2 {
-  text-align: center; 
+  padding: 4vh 90vh;
 }
 
 .img-habilidade{
@@ -102,6 +100,7 @@ h2 {
 }
 
 .sobremim {
+    
   margin: 10px;
   padding: 10px;
 }
