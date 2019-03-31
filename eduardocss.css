@@ -4,25 +4,19 @@ h1 {
   text-align: center;
   margin: 10px;
 }
-
 p {
   color: white;
   text-align: center; 
   margin: 5px 10px;
  
 }
-
 .sobreimg {
-    border-radius: 50%;
-    
-    border:4px solid white;
+  border-radius: 50%;
+  border:4px solid white;
 }
-
 h2 {
   text-align: center; 
-
 }
-
 .banner{
   position:absolute;
   text-align: center;
@@ -32,7 +26,6 @@ h2 {
   font-size: 50px;
   text-shadow: 3px 3px 8px rgba(0,0,0,0.77);
 }
-
 h3 {
   position:relative;
   text-align: center;
@@ -41,7 +34,6 @@ h3 {
   font-size: 20px;
   text-shadow: 3px 3px 8px rgba(0,0,0,0.77);
 }
-
 body {
   color:#fff;
   font-family: 'Open Sans', sans-serif;
@@ -49,27 +41,20 @@ body {
   background-image: url("");
   background-position: center;
   overflow-x: hidden;
-  
-  
 }
-
 .box {
   display: flex;
   padding: 5vh;
-   
 }
-
 .img1 {
   border-radius: 50%;
   justify-content: center;
   display:flex;
   margin:0 5vh;
 }
-
 .overflow {
-    overflow: hidden
+  overflow: hidden
 }
-
 .parallax {
   background: black;
   background-image: url("https://i.ibb.co/y5kYM0Q/14dfb8f7218052572a2c026c09df7dc5.png");
@@ -78,21 +63,15 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
-
-box-shadow: inset 0px -57px 51px -45px rgba(0,0,0,0.36);
-
+  box-shadow: inset 0px -57px 51px -45px rgba(0,0,0,0.36);
 }
-
 .fundobranco {
   text-align: center;
   background-color:  #1e1e1e;
   padding:3vh 100vh;
   text-shadow: 1px 0px 5px rgba(0,0,0,0.22);
   color: white;
-  
 }
-
 h4 {
   position:absolute;
   text-align: center;
@@ -100,9 +79,7 @@ h4 {
   right:0;
   margin: -0.5em;    
   font-size: 30px;
-
 }
-
 .espaco {
   background-color: transparent;
   padding: 4vh 90vh;
@@ -128,17 +105,13 @@ h4 {
   padding: 15px;
   display:flex;
 }
-
 .sobremim {
-    
   margin: 10px;
   padding: 10px;
 }
-
 .barrauna {
-    justify-content: center;
-    
-box-shadow: inset 0px 0px 15px -2px rgba(0,0,0,0.24);
+  justify-content: center;
+  box-shadow: inset 0px 0px 15px -2px rgba(0,0,0,0.24);
 }
 svg {
   position: absolute;
@@ -148,28 +121,25 @@ svg {
   top:5vh;
 }
 .contato {
-    font-size: medium;
-    text-align: center;
+  font-size: medium;
+  text-align: center;
 }
-
 .textoesquerda {
-    text-align: left;
+  text-align: left;
 }
 .center {
-    position:absolute;
+  position:absolute;
   text-align: center;
   left:0;
   right:0;
   margin: -0.5em;  
 }
 .feitonauna{
-    color: black;
+  color: black;
 }
 .sombrabrancatopo {
-   
-box-shadow: inset 0px 68px 14px -46px rgba(30,30,30,1);
+  box-shadow: inset 0px 68px 14px -46px rgba(30,30,30,1);
 }
-
 .fa {
   padding: 17px;
   font-size: 30px;
@@ -178,7 +148,6 @@ box-shadow: inset 0px 68px 14px -46px rgba(30,30,30,1);
   text-decoration: none;
   border-radius: 50%;
 }
-
 .fa:hover {
   opacity: 0.7;
 }
