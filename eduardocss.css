@@ -20,7 +20,7 @@ p {
 
 h2 {
   text-align: center; 
-  
+
 }
 
 .banner{
@@ -50,6 +50,7 @@ body {
   background-position: center;
   overflow-x: hidden;
   
+  
 }
 
 .box {
@@ -72,14 +73,14 @@ body {
 .parallax {
   background: black;
   background-image: url("https://i.ibb.co/y5kYM0Q/14dfb8f7218052572a2c026c09df7dc5.png");
-  min-height: 650px; 
+  min-height: 660px; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-box-shadow: inset 0px -116px 21px -86px rgba(0,0,0,1);
-  -moz-box-shadow: inset 0px -116px 21px -86px rgba(0,0,0,1);
-  box-shadow: inset 0px -116px 21px -86px rgba(0,0,0,1);
+  -webkit-box-shadow: inset 0px -57px 51px -45px rgba(0,0,0,0.36);
+-moz-box-shadow: inset 0px -57px 51px -45px rgba(0,0,0,0.36);
+box-shadow: inset 0px -57px 51px -45px rgba(0,0,0,0.36);
 
 }
 
@@ -145,4 +146,22 @@ svg {
   left: 20%;
   width: 60%;
   top:5vh;
+}
+.contato {
+    font-size: medium;
+    text-align: center;
+}
+
+.fundocinza {
+    background-color: grey;
+}
+.textoesquerda {
+    text-align: left;
+}
+.center {
+    position:absolute;
+  text-align: center;
+  left:0;
+  right:0;
+  margin: -0.5em;  
 }
